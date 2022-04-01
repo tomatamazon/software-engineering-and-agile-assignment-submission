@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-page-parent {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.login-textbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.login-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.login-alert {
+  position: absolute;
+  left: 50%;
+  top: 7%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  text-align: center;
+}
+
+.landing-page-parent {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.create-ticket {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.logout-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.create-ticket-parent {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.return-to-landing-page {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.create-ticket-title {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.create-ticket-description {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.create-ticket-assignee {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.create-ticket-progress-estimate {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.create-ticket-button {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.create-ticket-error-alert {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  text-align: center;
+}
+
+.create-ticket-invalid-selection-alert {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  text-align: center;
+}
+
+.create-ticket-success-state {
+  position: absolute;
+  left: 50%;
+  top: 13%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.create-ticket-failure-state {
+  position: absolute;
+  left: 50%;
+  top: 13%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.show-content {
+  position: absolute;
+  height: 80vh;
+  width: 95vw;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.item-update {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.format-resolved {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ticket-update-state {
+  position: absolute;
+  left: 50%;
+  top: 3%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 25%;
+}
+
+.ticket-delete-state {
+  position: absolute;
+  left: 50%;
+  top: 3%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 25%;
+}

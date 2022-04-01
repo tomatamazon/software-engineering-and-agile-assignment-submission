@@ -1,0 +1,8 @@
+build
+node_modules
+public
+README.md
+db-pass.txt
+project-db-keys.pem
+venv
+__pycache__
